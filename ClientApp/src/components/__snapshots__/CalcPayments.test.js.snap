@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalcPayments should render initial layout 1`] = `
+Array [
+  <div>
+    <h1
+      id="tabelLabel"
+    >
+      Who owes who money?
+    </h1>
+    <p>
+      <em>
+        Loading...
+      </em>
+    </p>
+  </div>,
+]
+`;

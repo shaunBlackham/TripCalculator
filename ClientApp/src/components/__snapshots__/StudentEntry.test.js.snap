@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StudentEntry should render initial layout 1`] = `
+Array [
+  <div>
+    <h1>
+      Expense Entry
+    </h1>
+    <div
+      className="col-lg-12 pl-5"
+    >
+      This screen is meant for the entering of expense information.  A name and an expense amount are required.  The expense amount is limited to decimal standards, with only two digits allowed to trail the decimal point. Expenses may be added in total or in smaller increments, as long as the Name is entered correctly. There is a maximum number of 6 total students allowed to be entered.  A running tally will be provided. 
+    </div>
+    <form
+      className="row"
+    >
+      <div
+        className="col-lg-6"
+      >
+        <label
+          htmlFor="name"
+        >
+          Name
+        </label>
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="name"
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="hidden"
+        >
+          Please enter a value
+        </div>
+      </div>
+      <div
+        className="col-lg-6"
+      >
+        <label
+          htmlFor="expense"
+        >
+          Expenses
+        </label>
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="expense"
+          onChange={[Function]}
+          value=""
+        />
+        <div
+          className="hidden"
+        >
+          Expense is invalid or missing
+        </div>
+      </div>
+      <div
+        className="col-lg-12  padd-top"
+      >
+        <button
+          className="btn btn-success"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+    <div
+      className="col-lg-6 ml-4"
+    >
+      Student Count: 
+      0
+    </div>
+    <div
+      className="ml-5 mt-2"
+    >
+      <img
+        alt=""
+        src="Snow1.JPG"
+        style={
+          Object {
+            "height": 300,
+          }
+        }
+      />
+      <img
+        alt=""
+        src="Snow5.PNG"
+        style={
+          Object {
+            "height": 300,
+          }
+        }
+      />
+    </div>
+  </div>,
+]
+`;
